@@ -8,7 +8,13 @@ class SpellCheckerTest {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		// fail("Not yet implemented");
+		//consrtuct a spell checker
+		SpellChecker checker = new SpellChecker();
+		//call the spell checker to check a word
+		int words = checker.getNumberOfWords();
+		//use assert to check the result
+		assertEquals(0, words);
 	}
 
 }
